@@ -245,8 +245,3 @@ res.cookie(`auth`, jwt, {
 });
 ```
 De esta manera, puedes configurar tus tokens y agregar una capa de seguridad en tu aplicacion 😄
-
-## Argon2 
-¿Seguridad para las contraseñas?, todos sabemos que las contraseñas deben estar seguras, precisamente por ello se utiliza la libreria argon2 // * Aunque no es la unica.
-
-Argon2 permite crear un hash para las contraseñas, patrones de 97 caracteres aleatorios para encriptar tus contraseñas, Así los hackers no sabran tu contraseña 😃
